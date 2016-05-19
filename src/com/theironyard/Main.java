@@ -14,5 +14,19 @@ public class Main {
         player.chooseName();
         player.chooseWeapon();
         player.chooseLocation();
+
+        player.findItem("armor");
+        player.findItem("potion");
+
+//        System.out.println("Type a number...");
+//        String num = scanner.nextLine();
+//        int numInt = Integer.valueOf(num);
+//
+//        if (numInt < 0) {
+//            System.out.println("That's a negative number!");
+//        }
+//        else {
+//            System.out.println("That's a positive number!");
+//        }
     }
 }
